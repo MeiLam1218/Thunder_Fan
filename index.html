@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Lightning Stroke Visualization</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Monthly Total Cloud-to-Ground Lightning Strokes</h1>
+            <p>Hong Kong Territory - Abstract Animation Visualization</p>
+        </header>
+        
+        <div class="controls">
+            <button id="playBtn">Play</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+            <div class="speed-control">
+                <label for="speed">Animation Speed:</label>
+                <input type="range" id="speed" min="0.1" max="3" step="0.1" value="1">
+                <span id="speedValue">1x</span>
+            </div>
+        </div>
+        
+        <div class="visualization-container">
+            <canvas id="lightningCanvas"></canvas>
+            <div class="info-panel">
+                <div id="currentMonth">Month: January</div>
+                <div id="strokeCount">Strokes: 0</div>
+                <div id="intensity">Intensity: Low</div>
+            </div>
+        </div>
+        
+        <div class="legend">
+            <h3>Legend</h3>
+            <div class="legend-item">
+                <div class="color-box" style="background: #ffff00;"></div>
+                <span>Low Intensity (1-50 strokes)</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background: #ff8800;"></div>
+                <span>Medium Intensity (51-200 strokes)</span>
+            </div>
+            <div class="legend-item">
+                <div class="color-box" style="background: #ff0000;"></div>
+                <span>High Intensity (201+ strokes)</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
