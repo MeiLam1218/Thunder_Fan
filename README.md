@@ -14,10 +14,10 @@
 ### Example Animation Images
 
 Flower at start:
-![Flower Start](flower_start.png)
+![Flower Start](flower_start.png.png)
 
 Flower fully bloomed:
-![Flower Full](flower_full.png)
+![Flower Full](flower_full.png.png)
 
 **What was used:**
 - Python 3.x
