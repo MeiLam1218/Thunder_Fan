@@ -1,6 +1,7 @@
 # Thunder_Fan
 
 ## Thunder_Fan.py Overview
+
 `Thunder_Fan.py` is a Python script that visualizes Hong Kong Observatory lightning data as a dynamic flower animation.
 
 **Features:**
@@ -9,6 +10,14 @@
 - Dots represent lightning strokes, with size and color mapped to monthly data
 - Rotating and pulse effects for visual interest
 - Data for 2023 is used by default, but the script supports other years
+
+### Example Animation Images
+
+Flower at start:
+![Flower Start](flower_start.png)
+
+Flower fully bloomed:
+![Flower Full](flower_full.png)
 
 **What was used:**
 - Python 3.x
